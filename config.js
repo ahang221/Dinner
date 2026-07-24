@@ -48,12 +48,12 @@ const CONFIG = {
     // 页面
     // =============================
 
-    title: "🥤 今天喝什么？",
+    title: "🍜 当干饭人遇上选择困难症",
 
     buttonText: "开始抽奖",
 
-    againText: "再抽一次",
+    againText: "不想吃？再抽一次叭",
 
-    resultPrefix: "今天喝："
+    resultPrefix: "今天吃："
 
 };
