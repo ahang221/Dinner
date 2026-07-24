@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>今天喝点什么呢</title>
+
+    <meta
+        name="theme-color"
+        content="#ffb84d">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!-- 页面 -->
+    <div class="page">
+
+        <!-- 标题 -->
+        <header class="header">
+
+            <h1 id="pageTitle">
+                🥤 今天喝点什么呢？
+            </h1>
+
+            <p class="subtitle">
+                今天的奶茶，请选择！
+            </p>
+
+        </header>
+
+        <!-- 彩带层（以后使用） -->
+        <div id="confetti"></div>
+
+        <!-- 老虎机 -->
+        <section class="slot-machine">
+
+            <!-- 上遮罩 -->
+            <div class="fade fade-top"></div>
+
+            <!-- 下遮罩 -->
+            <div class="fade fade-bottom"></div>
+
+            <!-- 中间中奖框 -->
+            <div class="winner-frame"></div>
+
+            <!-- 滚轮 -->
+            <div
+                id="reel"
+                class="reel">
+
+                <!--
+                    所有老虎机内容
+                    都由 script.js 自动生成
+                -->
+
+            </div>
+
+        </section>
+
+        <!-- 抽奖结果 -->
+        <section class="result-area">
+
+            <div class="result-title">
+
+                婷姐今天的选择是
+
+            </div>
+
+            <div id="winnerName">
+
+                点击开始抽奖
+
+            </div>
+
+        </section>
+
+        <!-- 按钮 -->
+        <section class="button-area">
+
+            <button
+                id="startButton">
+
+                开始抽奖
+
+            </button>
+
+        </section>
+
+    </div>
+
+    <!-- 配置 -->
+    <script src="config.js"></script>
+
+    <!-- 奶茶店数据 -->
+    <script src="shops.js"></script>
+
+    <!-- 主程序 -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
