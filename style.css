@@ -25,30 +25,27 @@ body{
 
     width:100%;
     height:100%;
-
     overflow:hidden;
 
     font-family:
-
+        "HarmonyOS Sans SC",
         "PingFang SC",
         "Microsoft YaHei",
         sans-serif;
 
     background:
-
         linear-gradient(
             180deg,
-            #FFF8EE 0%,
-            #FFEED3 100%
+            #FFF9F2 0%,
+            #FFE6C9 40%,
+            #FFD7A5 100%
         );
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
 
-    color:#5b4636;
+    color:#4b382a;
 
 }
 
@@ -83,10 +80,8 @@ body{
 .header h1{
 
     font-size:40px;
-
     font-weight:700;
-
-    color:#6b4323;
+    color:#5B371A;
 
 }
 
@@ -94,7 +89,7 @@ body{
 
     margin-top:10px;
 
-    color:#8b6b50;
+    color:#846048;
 
     font-size:16px;
 
@@ -118,7 +113,7 @@ body{
 
     background:
 
-        rgba(255,255,255,.45);
+        rgba(255,250,245,.72);
 
     backdrop-filter:
 
@@ -126,11 +121,11 @@ body{
 
     border:
 
-        1px solid rgba(255,255,255,.7);
+        1px solid rgba(255,255,255,.9);
 
     box-shadow:
 
-        0 20px 50px rgba(0,0,0,.15);
+        0 20px 50px rgba(120,70,20,.12);
 
 }
 
@@ -171,7 +166,7 @@ body{
 
     font-weight:700;
 
-    color:#7a5d46;
+    color:#5C4333;
 
     transition:
 
@@ -311,7 +306,7 @@ body{
 
     font-weight:700;
 
-    color:#ff7b00;
+    color:#D35400;
 
 }
 /* ===========================
