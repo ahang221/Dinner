@@ -36,9 +36,9 @@ body{
     background:
         linear-gradient(
             180deg,
-            #FFF9F2 0%,
-            #FFE6C9 40%,
-            #FFD7A5 100%
+           #FFF9F4 0%,
+           #FFE9D6 45%,
+           #FFD6B8 100%
         );
 
     display:flex;
@@ -81,7 +81,7 @@ body{
 
     font-size:40px;
     font-weight:700;
-    color:#5B371A;
+    color:#6B4F3A;
 
 }
 
@@ -89,7 +89,7 @@ body{
 
     margin-top:10px;
 
-    color:#846048;
+    color:#FF8A65;
 
     font-size:16px;
 
@@ -166,7 +166,7 @@ body{
 
     font-weight:700;
 
-    color:#5C4333;
+    color:#7B6656;
 
     transition:
 
@@ -184,7 +184,7 @@ body{
 
 .slot-item.active{
 
-    color:#ff7b00;
+    color:#FFE7CC;
 
     transform:scale(1.08);
 
